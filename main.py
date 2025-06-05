@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def read_root():
-    return {"mensaje": "¡Hola desde Hanniismar API!"}
+def root():
+    return {"message": "¡La API de Hanniismar está viva y lista para ti! 💖"}
