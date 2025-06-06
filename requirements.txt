@@ -1,3 +1,2 @@
-Txt
 fastapi
 uvicorn[standard]
