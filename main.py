@@ -1,8 +1,7 @@
-Python
 from fastapi import FastAPI
 
 app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "¡Hanniismar API funcionando correctamente! 🚀"}
+    return {"message": "¡Hanniismar está en línea!"}
